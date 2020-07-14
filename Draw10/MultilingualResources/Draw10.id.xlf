@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="id" original="DRAW10/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="DRAW10/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AppDisplayName" translate="no" xml:space="preserve">
+          <source>Draw10</source>
+          <target state="final">Draw10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Application display name</note>
+        </trans-unit>
+        <trans-unit id="AppDescription" translate="no" xml:space="preserve">
+          <source>Draw10</source>
+          <target state="final">Draw10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Application description</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_LassoSelectionButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Lasso selection</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pemilihan Lasso</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Lasso selection button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_LassoSelectionButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Lasso selection</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pemilihan Lasso</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Lasso selection button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Touch inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sentuh tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Touch inking button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Touch inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sentuh tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Touch inking button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Mouse inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinta tikus</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mouse inking button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Mouse inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinta tikus</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mouse inking button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomInButton.Label" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomOutButton.Label" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ZoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CutButton.Label" translate="yes" xml:space="preserve">
+          <source>Cut</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Potong</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cut button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Cut</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Potong</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cut button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Cut</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Potong</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cut button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CopyButton.Label" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Salin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CopyButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Salin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_CopyButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Salin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Copy button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_PasteButton.Label" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tempel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Paste button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_PasteButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tempel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Paste button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_PasteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tempel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Paste button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_UndoButton.Label" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Batalkan</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Undo button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_UndoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Batalkan</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Undo button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_UndoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Batalkan</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Undo button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_RedoButton.Label" translate="yes" xml:space="preserve">
+          <source>Redo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ulangi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Redo button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_RedoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Redo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ulangi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Redo button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_RedoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Redo</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ulangi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Redo button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_LoadInkFileButton.Label" translate="yes" xml:space="preserve">
+          <source>Load ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Memuat file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LoadInkFile button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_LoadInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Load ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Memuat file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LoadInkFile button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_LoadInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Load ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Memuat file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">LoadInkFile button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_SaveInkFileButton.Label" translate="yes" xml:space="preserve">
+          <source>Save ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyimpan file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveInkFile button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_SaveInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Save ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyimpan file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveInkFile button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_SaveInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Save ink file</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyimpan file tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveInkFile button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ExportAsImageButton.Label" translate="yes" xml:space="preserve">
+          <source>Export as image</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ekspor sebagai gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ExportAsImage button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ExportAsImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Export as image</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ekspor sebagai gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ExportAsImage button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ExportAsImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Export as image</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ekspor sebagai gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ExportAsImage button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ClearAllButton.Label" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button label property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button tooltip property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDraw_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button automation name property for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="Shell_InkDraw.Content" translate="yes" xml:space="preserve">
+          <source>Pure Drawing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gambar murni</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Navigation view item name for InkDraw</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Touch inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sentuh tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Touch inking button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Touch inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sentuh tinta</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Touch inking button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Mouse inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinta tikus</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mouse inking button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Mouse inking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tinta tikus</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mouse inking button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomInButton.Label" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Zoom in</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perbesar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomIn button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomOutButton.Label" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ZoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Zoom out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Perkecil</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ZoomOut button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OriginalSizeButton.Label" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ukuran asli</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OriginalSize button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OriginalSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ukuran asli</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OriginalSize button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OriginalSizeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Original size</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Ukuran asli</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OriginalSize button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_FitToScreenButton.Label" translate="yes" xml:space="preserve">
+          <source>Fit to screen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Paskan ke layar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FitToScreen button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_FitToScreenButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fit to screen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Paskan ke layar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FitToScreen button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_FitToScreenButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Fit to screen</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Paskan ke layar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FitToScreen button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OpenImageButton.Label" translate="yes" xml:space="preserve">
+          <source>Open image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Buka gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OpenImage button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OpenImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Open image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Buka gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OpenImage button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_OpenImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Open image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Buka gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">OpenImage button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_SaveImageButton.Label" translate="yes" xml:space="preserve">
+          <source>Save image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Simpan gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveImage button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_SaveImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Save image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Simpan gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveImage button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_SaveImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Save image</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Simpan gambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SaveImage button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ClearAllButton.Label" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button label property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button tooltip property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="InkDrawPicture_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Clear all</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hapus semua</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ClearAll button automation name property for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="Shell_InkDrawPicture.Content" translate="yes" xml:space="preserve">
+          <source>Picture Drawing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gambar Menggambar</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Navigation view item name for InkDrawPicture</note>
+        </trans-unit>
+        <trans-unit id="ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty" translate="yes" xml:space="preserve">
+          <source>File name is null or empty. Specify a valid file name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nama file null atau kosong. Tentukan nama file yang valid</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">File name is null or empty to save file in settings storage extensions</note>
+        </trans-unit>
+        <trans-unit id="Settings_Theme.Text" translate="yes" xml:space="preserve">
+          <source>Choose Theme</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Memilih Tema</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Choose theme text for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_Theme_Dark.Content" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Gelap</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Dark theme text for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_Theme_Default.Content" translate="yes" xml:space="preserve">
+          <source>Windows default</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Default Windows</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Windows default theme text for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_Theme_Light.Content" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Terang</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Light theme text for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_About.Text" translate="yes" xml:space="preserve">
+          <source>About this application</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tentang aplikasi ini</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">About this application title for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_AboutDescription.Text" translate="yes" xml:space="preserve">
+          <source>Draw10, a simple drawing app.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Draw10, aplikasi menggambar sederhana.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">About this application description for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_PrivacyTermsLink.Content" translate="yes" xml:space="preserve">
+          <source>License Statement</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pernyataan lisensi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Privacy Statement link content for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_PrivacyTermsLink.NavigateUri" translate="yes" xml:space="preserve">
+          <source>https://github.com/Astyr6/Draw10/blob/master/LICENSE.md</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">https://github.com/Astyr6/Draw10/blob/master/LICENSE.md</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Here is your Privacy Statement url for Settings</note>
+        </trans-unit>
+        <trans-unit id="Settings_Personalization.Text" translate="yes" xml:space="preserve">
+          <source>Personalization</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Personalisasi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Personalization text for Settings</note>
+        </trans-unit>
+        <trans-unit id="ExceptionEnumToBooleanConverterValueMustBeAnEnum" translate="yes" xml:space="preserve">
+          <source>value must be an Enum!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nilai harus ENUM!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Value must be an Enum in enum to boolean converter</note>
+        </trans-unit>
+        <trans-unit id="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" translate="yes" xml:space="preserve">
+          <source>parameter must be an Enum name!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">parameter harus nama ENUM!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Parameter must be an Enum name in enum to boolean converter</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

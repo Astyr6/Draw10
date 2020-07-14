@@ -125,6 +125,12 @@
   <PropertyGroup>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
@@ -296,6 +302,32 @@
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <PRIResource Include="Strings\sv\Resources.resw" />
+    <PRIResource Include="Strings\ru\Resources.resw" />
+    <PRIResource Include="Strings\ro\Resources.resw" />
+    <PRIResource Include="Strings\pt\Resources.resw" />
+    <PRIResource Include="Strings\pl\Resources.resw" />
+    <PRIResource Include="Strings\nb\Resources.resw" />
+    <PRIResource Include="Strings\nl\Resources.resw" />
+    <PRIResource Include="Strings\ja\Resources.resw" />
+    <PRIResource Include="Strings\it\Resources.resw" />
+    <PRIResource Include="Strings\is\Resources.resw" />
+    <PRIResource Include="Strings\ga\Resources.resw" />
+    <PRIResource Include="Strings\id\Resources.resw" />
+    <PRIResource Include="Strings\hu\Resources.resw" />
+    <PRIResource Include="Strings\hi\Resources.resw" />
+    <PRIResource Include="Strings\he\Resources.resw" />
+    <PRIResource Include="Strings\el\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\fi\Resources.resw" />
+    <PRIResource Include="Strings\et\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
+    <PRIResource Include="Strings\da\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hant\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hans\Resources.resw" />
+    <PRIResource Include="Strings\ar\Resources.resw" />
+    <PRIResource Include="Strings\en\Resources.resw" />
+    <PRIResource Include="Strings\de\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
@@ -313,10 +345,43 @@
       <Name>Draw10.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\Draw10.ar.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.da.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.de.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.el.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.en.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.es.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.et.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.fi.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.fr.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.ga.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.he.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.hi.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.hu.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.id.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.is.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.it.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.ja.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.nb.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.nl.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.pl.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.pt.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.ro.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.ru.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.sv.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.zh-Hans.xlf" />
+    <XliffResource Include="MultilingualResources\Draw10.zh-Hant.xlf" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
