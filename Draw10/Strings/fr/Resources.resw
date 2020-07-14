@@ -177,7 +177,7 @@
     <comment>ClearAll button automation name property for InkDraw</comment>
   </data>
   <data name="Shell_InkDraw.Content" xml:space="preserve">
-    <value>Dessin pur</value>
+    <value>Dessin Pur</value>
     <comment>Navigation view item name for InkDraw</comment>
   </data>
   <data name="InkDrawPicture_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">

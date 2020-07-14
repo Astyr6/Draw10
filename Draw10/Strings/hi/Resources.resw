@@ -12,4 +12,316 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InkDraw_LassoSelectionButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>लासो चयन</value>
+    <comment>Lasso selection button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_LassoSelectionButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>लासो चयन</value>
+    <comment>Lasso selection button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>टच इंकिंग</value>
+    <comment>Touch inking button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टच इंकिंग</value>
+    <comment>Touch inking button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>माउस इंकिंग</value>
+    <comment>Mouse inking button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>माउस इंकिंग</value>
+    <comment>Mouse inking button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomInButton.Label" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomOutButton.Label" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ZoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CutButton.Label" xml:space="preserve">
+    <value>काटें</value>
+    <comment>Cut button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>काटें</value>
+    <comment>Cut button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>काटें</value>
+    <comment>Cut button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CopyButton.Label" xml:space="preserve">
+    <value>प्रतिलिपि बनाएँ</value>
+    <comment>Copy button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CopyButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>प्रतिलिपि बनाएँ</value>
+    <comment>Copy button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_CopyButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>प्रतिलिपि बनाएँ</value>
+    <comment>Copy button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_PasteButton.Label" xml:space="preserve">
+    <value>चिपकाएँ</value>
+    <comment>Paste button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_PasteButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>चिपकाएँ</value>
+    <comment>Paste button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_PasteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>चिपकाएँ</value>
+    <comment>Paste button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_UndoButton.Label" xml:space="preserve">
+    <value>पूर्ववत् करें</value>
+    <comment>Undo button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_UndoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>पूर्ववत् करें</value>
+    <comment>Undo button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_UndoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>पूर्ववत् करें</value>
+    <comment>Undo button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_RedoButton.Label" xml:space="preserve">
+    <value>फिर से करें</value>
+    <comment>Redo button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_RedoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>फिर से करें</value>
+    <comment>Redo button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_RedoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>फिर से करें</value>
+    <comment>Redo button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_LoadInkFileButton.Label" xml:space="preserve">
+    <value>लोड स्याही फ़ाइल</value>
+    <comment>LoadInkFile button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_LoadInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>लोड स्याही फ़ाइल</value>
+    <comment>LoadInkFile button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_LoadInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>लोड स्याही फ़ाइल</value>
+    <comment>LoadInkFile button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_SaveInkFileButton.Label" xml:space="preserve">
+    <value>स्याही फ़ाइल को सहेजें</value>
+    <comment>SaveInkFile button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_SaveInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>स्याही फ़ाइल को सहेजें</value>
+    <comment>SaveInkFile button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_SaveInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्याही फ़ाइल को सहेजें</value>
+    <comment>SaveInkFile button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ExportAsImageButton.Label" xml:space="preserve">
+    <value>छवि के रूप में निर्यात</value>
+    <comment>ExportAsImage button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ExportAsImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>छवि के रूप में निर्यात</value>
+    <comment>ExportAsImage button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ExportAsImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>छवि के रूप में निर्यात</value>
+    <comment>ExportAsImage button automation name property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ClearAllButton.Label" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button label property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button tooltip property for InkDraw</comment>
+  </data>
+  <data name="InkDraw_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button automation name property for InkDraw</comment>
+  </data>
+  <data name="Shell_InkDraw.Content" xml:space="preserve">
+    <value>शुद्ध ड्राइंग</value>
+    <comment>Navigation view item name for InkDraw</comment>
+  </data>
+  <data name="InkDrawPicture_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>टच इंकिंग</value>
+    <comment>Touch inking button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>टच इंकिंग</value>
+    <comment>Touch inking button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>माउस इंकिंग</value>
+    <comment>Mouse inking button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>माउस इंकिंग</value>
+    <comment>Mouse inking button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomInButton.Label" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ज़ूम इन करें</value>
+    <comment>ZoomIn button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomOutButton.Label" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ZoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>ज़ूम आउट</value>
+    <comment>ZoomOut button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OriginalSizeButton.Label" xml:space="preserve">
+    <value>मूल आकार</value>
+    <comment>OriginalSize button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OriginalSizeButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>मूल आकार</value>
+    <comment>OriginalSize button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OriginalSizeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>मूल आकार</value>
+    <comment>OriginalSize button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_FitToScreenButton.Label" xml:space="preserve">
+    <value>स्क्रीन पर फ़िट करें</value>
+    <comment>FitToScreen button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_FitToScreenButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>स्क्रीन पर फ़िट करें</value>
+    <comment>FitToScreen button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_FitToScreenButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>स्क्रीन पर फ़िट करें</value>
+    <comment>FitToScreen button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OpenImageButton.Label" xml:space="preserve">
+    <value>छवि खोलें</value>
+    <comment>OpenImage button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OpenImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>छवि खोलें</value>
+    <comment>OpenImage button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_OpenImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>छवि खोलें</value>
+    <comment>OpenImage button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_SaveImageButton.Label" xml:space="preserve">
+    <value>छवि सहेजें</value>
+    <comment>SaveImage button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_SaveImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>छवि सहेजें</value>
+    <comment>SaveImage button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_SaveImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>छवि सहेजें</value>
+    <comment>SaveImage button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ClearAllButton.Label" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button label property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button tooltip property for InkDrawPicture</comment>
+  </data>
+  <data name="InkDrawPicture_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>सभी साफ़ करें</value>
+    <comment>ClearAll button automation name property for InkDrawPicture</comment>
+  </data>
+  <data name="Shell_InkDrawPicture.Content" xml:space="preserve">
+    <value>चित्र ड्राइंग</value>
+    <comment>Navigation view item name for InkDrawPicture</comment>
+  </data>
+  <data name="ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty" xml:space="preserve">
+    <value>फाइल का नाम अशक्त या खाली है। एक वैध फ़ाइल नाम निर्दिष्ट</value>
+    <comment>File name is null or empty to save file in settings storage extensions</comment>
+  </data>
+  <data name="Settings_Theme.Text" xml:space="preserve">
+    <value>वि‍षयवस्‍तु चुनें</value>
+    <comment>Choose theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Dark.Content" xml:space="preserve">
+    <value>गहरा</value>
+    <comment>Dark theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Default.Content" xml:space="preserve">
+    <value>Windows डिफ़ॉल्ट</value>
+    <comment>Windows default theme text for Settings</comment>
+  </data>
+  <data name="Settings_Theme_Light.Content" xml:space="preserve">
+    <value>हल्का</value>
+    <comment>Light theme text for Settings</comment>
+  </data>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>इस आवेदन के बारे में</value>
+    <comment>About this application title for Settings</comment>
+  </data>
+  <data name="Settings_AboutDescription.Text" xml:space="preserve">
+    <value>ड्रा10, एक सरल ड्राइंग ऐप।</value>
+    <comment>About this application description for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>लाइसेंस स्टेटमेंट</value>
+    <comment>Privacy Statement link content for Settings</comment>
+  </data>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://github.com/Astyr6/Draw10/blob/master/LICENSE.md</value>
+    <comment>Here is your Privacy Statement url for Settings</comment>
+  </data>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>वैयक्तिकरण</value>
+    <comment>Personalization text for Settings</comment>
+  </data>
+  <data name="ExceptionEnumToBooleanConverterValueMustBeAnEnum" xml:space="preserve">
+    <value>मूल्य एक एनम होना चाहिए!</value>
+    <comment>Value must be an Enum in enum to boolean converter</comment>
+  </data>
+  <data name="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" xml:space="preserve">
+    <value>पैरामीटर एक एनम नाम होना चाहिए!</value>
+    <comment>Parameter must be an Enum name in enum to boolean converter</comment>
+  </data>
 </root>
