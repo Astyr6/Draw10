@@ -10,7 +10,7 @@
   <Identity
     Name="29635Astyr.Draw10"
     Publisher="CN=61188628-CEC2-4729-A177-0BE913180E82"
-    Version="1.0.13.0" />
+    Version="1.0.15.0" />
 
   <mp:PhoneIdentity PhoneProductId="6ffe161e-6738-49fb-af96-024b549091ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
