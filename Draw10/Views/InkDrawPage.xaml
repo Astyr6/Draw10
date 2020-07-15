@@ -65,8 +65,8 @@
                         Icon="Cut"
                         IsEnabled="{x:Bind CutButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="X"/>
-                        </AppBarButton.KeyboardAccelerators> 
+                            <KeyboardAccelerator Key="X" Modifiers="Control" />
+                        </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
                         x:Uid="InkDraw_CopyButton"
@@ -76,7 +76,7 @@
                         Icon="Copy"
                         IsEnabled="{x:Bind CopyButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="C"/>
+                            <KeyboardAccelerator Key="C" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
@@ -87,7 +87,7 @@
                         Icon="Paste"
                         IsEnabled="{x:Bind PasteButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="V"/>
+                            <KeyboardAccelerator Key="V" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarSeparator />
@@ -99,7 +99,7 @@
                         Icon="Undo"
                         IsEnabled="{x:Bind UndoButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="Z"/>
+                            <KeyboardAccelerator Key="Z" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
@@ -108,9 +108,9 @@
                         BorderThickness="0,0,0,0"
                         Click="Redo_Click"
                         Icon="Redo"
-                        IsEnabled="{x:Bind RedoButtonIsEnabled, Mode=OneWay}" >
+                        IsEnabled="{x:Bind RedoButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="Y"/>
+                            <KeyboardAccelerator Key="Y" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarSeparator />
@@ -119,9 +119,9 @@
                         BorderBrush="Transparent"
                         BorderThickness="0,0,0,0"
                         Click="LoadInkFile_Click"
-                        Icon="OpenFile" >
+                        Icon="OpenFile">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="O"/>
+                            <KeyboardAccelerator Key="O" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
@@ -130,9 +130,9 @@
                         BorderThickness="0,0,0,0"
                         Click="SaveInkFile_Click"
                         Icon="Save"
-                        IsEnabled="{x:Bind SaveInkFileButtonIsEnabled, Mode=OneWay}" >
+                        IsEnabled="{x:Bind SaveInkFileButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="S"/>
+                            <KeyboardAccelerator Key="S" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
@@ -143,9 +143,38 @@
                         Icon="Download"
                         IsEnabled="{x:Bind ExportAsImageButtonIsEnabled, Mode=OneWay}">
                         <AppBarButton.KeyboardAccelerators>
-                            <KeyboardAccelerator Modifiers="Control" Key="E"/>
+                            <KeyboardAccelerator Key="E" Modifiers="Control" />
                         </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
+                    <AppBarSeparator />
+                    <AppBarButton
+                    x:Uid="InkDrawPicture_OriginalSizeButton"
+                    BorderBrush="Transparent"
+                    BorderThickness="0,0,0,0"
+                    Click="ResetZoom_Click"
+                    Icon="FullScreen" />
+                    <AppBarButton
+                    x:Uid="InkDrawPicture_FitToScreenButton"
+                    BorderBrush="Transparent"
+                    BorderThickness="0,0,0,0"
+                    Click="FitToScreen_Click">
+                        <FontIcon FontFamily="{ThemeResource SymbolThemeFontFamily}" Glyph="&#xE73F;" />
+                    </AppBarButton>
+                    <AppBarSeparator />
+                    <AppBarButton
+                    x:Uid="InkDrawPicture_OpenImageButton"
+                    BorderBrush="Transparent"
+                    BorderThickness="0,0,0,0"
+                    Click="LoadImage_Click">
+                        <FontIcon FontFamily="{ThemeResource SymbolThemeFontFamily}" Glyph="&#xEB9F;" />
+                    </AppBarButton>
+                    <AppBarButton
+                    x:Uid="InkDrawPicture_SaveImageButton"
+                    BorderBrush="Transparent"
+                    BorderThickness="0,0,0,0"
+                    Click="SaveImage_Click"
+                    Icon="Save"
+                    IsEnabled="{x:Bind SaveImageButtonIsEnabled, Mode=OneWay}" />
                     <AppBarSeparator />
                     <AppBarButton
                         x:Uid="InkDraw_ClearAllButton"
@@ -172,6 +201,7 @@
                     x:Name="inkCanvas"
                     HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch" />
+                <Image x:Name="image" Stretch="None" />
                 <Canvas
                     x:Name="selectionCanvas"
                     Width="{Binding ElementName=inkCanvas, Path=Width}"

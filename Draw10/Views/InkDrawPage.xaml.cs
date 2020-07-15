@@ -3,9 +3,11 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
+using Draw10.Helpers;
 using Draw10.Services.Ink;
 using Draw10.Services.Ink.UndoRedo;
 
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
@@ -14,9 +16,12 @@ namespace Draw10.Views
     // For more information regarding Windows Ink documentation and samples see https://github.com/Microsoft/WindowsTemplateStudio/blob/release/docs/UWP/pages/ink.md
     public sealed partial class InkDrawPage : Page, INotifyPropertyChanged
     {
+        private StorageFile imageFile;
+
         private bool lassoSelectionButtonIsChecked;
         private bool touchInkingButtonIsChecked = true;
         private bool mouseInkingButtonIsChecked = true;
+        private bool saveImageButtonIsEnabled;
         private bool cutButtonIsEnabled;
         private bool copyButtonIsEnabled;
         private bool pasteButtonIsEnabled;
@@ -26,6 +31,7 @@ namespace Draw10.Views
         private bool exportAsImageButtonIsEnabled;
         private bool clearAllButtonIsEnabled;
         private InkStrokesService strokeService;
+        private InkStrokesService strokesService;
         private InkLassoSelectionService lassoSelectionService;
         private InkPointerDeviceService pointerDeviceService;
         private InkCopyPasteService copyPasteService;
@@ -56,6 +62,19 @@ namespace Draw10.Views
                 undoRedoService.UndoEvent += (s, e) => RefreshEnabledButtons();
                 undoRedoService.RedoEvent += (s, e) => RefreshEnabledButtons();
                 undoRedoService.AddUndoOperationEvent += (s, e) => RefreshEnabledButtons();
+                pointerDeviceService.DetectPenEvent += (s, e) => TouchInkingButtonIsChecked = false;
+
+
+
+                image.SizeChanged += Image_SizeChanged;
+
+                strokesService = new InkStrokesService(inkCanvas.InkPresenter);
+                pointerDeviceService = new InkPointerDeviceService(inkCanvas);
+                fileService = new InkFileService(inkCanvas, strokesService);
+                zoomService = new InkZoomService(canvasScroll);
+                strokesService.StrokesCollected += (s, e) => RefreshEnabledButtons();
+                strokesService.StrokesErased += (s, e) => RefreshEnabledButtons();
+                strokesService.ClearStrokesEvent += (s, e) => RefreshEnabledButtons();
                 pointerDeviceService.DetectPenEvent += (s, e) => TouchInkingButtonIsChecked = false;
             };
         }
@@ -203,6 +222,8 @@ namespace Draw10.Views
             ClearSelection();
             strokeService?.ClearStrokes();
             undoRedoService?.AddOperation(new RemoveStrokeUndoRedoOperation(strokes, strokeService));
+
+            ClearAll();
         }
 
         private void RefreshEnabledButtons()
@@ -215,6 +236,9 @@ namespace Draw10.Views
             SaveInkFileButtonIsEnabled = strokeService.GetStrokes().Any();
             ExportAsImageButtonIsEnabled = strokeService.GetStrokes().Any();
             ClearAllButtonIsEnabled = strokeService.GetStrokes().Any();
+
+            SaveImageButtonIsEnabled = image.Source != null && strokesService.GetStrokes().Any();
+            ClearAllButtonIsEnabled = image.Source != null || strokesService.GetStrokes().Any();
         }
 
         private void ConfigLassoSelection(bool enableLasso)
@@ -245,5 +269,80 @@ namespace Draw10.Views
         }
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+        public bool SaveImageButtonIsEnabled
+        {
+            get => saveImageButtonIsEnabled;
+            set => Set(ref saveImageButtonIsEnabled, value);
+        }
+
+
+        private void Image_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (e.NewSize.Height == 0 || e.NewSize.Width == 0)
+            {
+                SetCanvasSize();
+            }
+            else
+            {
+                inkCanvas.Width = e.NewSize.Width;
+                inkCanvas.Height = e.NewSize.Height;
+            }
+        }
+
+        private void ResetZoom_Click(object sender, RoutedEventArgs e) => zoomService?.ResetZoom();
+
+        private void FitToScreen_Click(object sender, RoutedEventArgs e) => zoomService?.FitToScreen();
+
+        private async void LoadImage_Click(object sender, RoutedEventArgs e)
+        {
+            var file = await ImageHelper.LoadImageFileAsync();
+            var bitmapImage = await ImageHelper.GetBitmapFromImageAsync(file);
+
+            if (file != null && bitmapImage != null)
+            {
+                ClearAll();
+                imageFile = file;
+                image.Source = bitmapImage;
+                zoomService?.FitToSize(bitmapImage.PixelWidth, bitmapImage.PixelHeight);
+
+                RefreshEnabledButtons();
+            }
+        }
+
+        private async void SaveImage_Click(object sender, RoutedEventArgs e) => await fileService?.ExportToImageAsync(imageFile);
+
+        private void ClearAll()
+        {
+            strokesService?.ClearStrokes();
+            imageFile = null;
+            image.Source = null;
+
+            RefreshEnabledButtons();
+        }
     }
 }
