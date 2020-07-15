@@ -31,11 +31,6 @@
                     <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE76D;"/>
                 </winui:NavigationViewItem.Icon>
             </winui:NavigationViewItem>
-            <winui:NavigationViewItem x:Uid="Shell_InkDrawPicture" helpers:NavHelper.NavigateTo="views:InkDrawPicturePage" Content="Image Drawing">
-                <winui:NavigationViewItem.Icon>
-                    <SymbolIcon Symbol="Pictures"/>
-                </winui:NavigationViewItem.Icon>
-            </winui:NavigationViewItem>
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" />

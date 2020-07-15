@@ -177,9 +177,6 @@
     <Compile Include="Views\InkDrawPage.xaml.cs">
       <DependentUpon>InkDrawPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\InkDrawPicturePage.xaml.cs">
-      <DependentUpon>InkDrawPicturePage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
@@ -219,10 +216,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\InkDrawPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\InkDrawPicturePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

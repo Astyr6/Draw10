@@ -18,11 +18,34 @@
                 Background="Transparent"
                 RelativePanel.AlignHorizontalCenterWithPanel="True"
                 TargetInkCanvas="{x:Bind inkCanvas}">
+                <InkToolbarBallpointPenButton>
+                    <InkToolbarBallpointPenButton.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="B"/>
+                    </InkToolbarBallpointPenButton.KeyboardAccelerators>
+                </InkToolbarBallpointPenButton>
+                <InkToolbarPencilButton>
+                    <InkToolbarPencilButton.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="P"/>
+                    </InkToolbarPencilButton.KeyboardAccelerators>
+                </InkToolbarPencilButton>
+                <InkToolbarHighlighterButton>
+                    <InkToolbarHighlighterButton.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="H"/>
+                    </InkToolbarHighlighterButton.KeyboardAccelerators>
+                </InkToolbarHighlighterButton>
+                <InkToolbarEraserButton>
+                    <InkToolbarEraserButton.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="E"/>
+                    </InkToolbarEraserButton.KeyboardAccelerators>
+                </InkToolbarEraserButton>
                 <InkToolbarCustomToolButton
                     x:Uid="InkDraw_LassoSelectionButton"
                     Background="Transparent"
                     IsChecked="{x:Bind LassoSelectionButtonIsChecked, Mode=TwoWay}">
                     <FontIcon FontFamily="{ThemeResource SymbolThemeFontFamily}" Glyph="&#xEF20;" />
+                    <InkToolbarCustomToolButton.KeyboardAccelerators>
+                        <KeyboardAccelerator Key="L"/>
+                    </InkToolbarCustomToolButton.KeyboardAccelerators>
                 </InkToolbarCustomToolButton>
                 <InkToolbarCustomToggleButton
                     x:Uid="InkDraw_TouchInkingButton"
@@ -167,6 +190,9 @@
                     BorderThickness="0,0,0,0"
                     Click="LoadImage_Click">
                         <FontIcon FontFamily="{ThemeResource SymbolThemeFontFamily}" Glyph="&#xEB9F;" />
+                        <AppBarButton.KeyboardAccelerators>
+                            <KeyboardAccelerator Modifiers="Control,Shift" Key="O"/>
+                        </AppBarButton.KeyboardAccelerators>
                     </AppBarButton>
                     <AppBarButton
                     x:Uid="InkDrawPicture_SaveImageButton"
@@ -174,7 +200,11 @@
                     BorderThickness="0,0,0,0"
                     Click="SaveImage_Click"
                     Icon="Save"
-                    IsEnabled="{x:Bind SaveImageButtonIsEnabled, Mode=OneWay}" />
+                    IsEnabled="{x:Bind SaveImageButtonIsEnabled, Mode=OneWay}">
+                        <AppBarButton.KeyboardAccelerators>
+                            <KeyboardAccelerator Modifiers="Control,Shift" Key="S"/>
+                        </AppBarButton.KeyboardAccelerators>
+                    </AppBarButton>
                     <AppBarSeparator />
                     <AppBarButton
                         x:Uid="InkDraw_ClearAllButton"
@@ -197,11 +227,11 @@
                 Width="{Binding ElementName=inkCanvas, Path=Width}"
                 Height="{Binding ElementName=inkCanvas, Path=Height}"
                 Background="{StaticResource InkCanvasBackground}">
+                <Image x:Name="image" Stretch="None" />
                 <InkCanvas
                     x:Name="inkCanvas"
                     HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch" />
-                <Image x:Name="image" Stretch="None" />
                 <Canvas
                     x:Name="selectionCanvas"
                     Width="{Binding ElementName=inkCanvas, Path=Width}"

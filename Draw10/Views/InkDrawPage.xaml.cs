@@ -202,6 +202,8 @@ namespace Draw10.Views
             {
                 undoRedoService?.Reset();
             }
+
+            image.Source = null;
         }
 
         private async void SaveInkFile_Click(object sender, RoutedEventArgs e)
@@ -239,6 +241,12 @@ namespace Draw10.Views
 
             SaveImageButtonIsEnabled = image.Source != null && strokesService.GetStrokes().Any();
             ClearAllButtonIsEnabled = image.Source != null || strokesService.GetStrokes().Any();
+
+            if (image.Source != null)
+            {
+                saveInkFileButtonIsEnabled = false;
+                exportAsImageButtonIsEnabled = false;
+            }
         }
 
         private void ConfigLassoSelection(bool enableLasso)
@@ -270,30 +278,9 @@ namespace Draw10.Views
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-
+        /// <summary>
+        /// PICTURE PART
+        /// </summary>
         public bool SaveImageButtonIsEnabled
         {
             get => saveImageButtonIsEnabled;
